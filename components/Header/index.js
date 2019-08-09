@@ -9,6 +9,26 @@
 //  </div >
 // And add it to the DOM in the .headerContainer component
 
+// function getLocation() {
+//     if (navigator.geolocation) {
+//         navigator.geolocation.getCurrentPosition(showPosition);
+//     } else {
+//         console.log(showPosition())
+//     }
+// }
+// getLocation();
+//
+// function showPosition(position) {
+//     console.log(position.coords.latitude);
+//     console.log(position.coords.longitude);
+// }
+// showPosition();
+
+// axios
+//     .get(`https://api.darksky.net/forecast/3d457546243518ebe20be28f2ec16712/37.8267,-122.4233`)
+//     .then(response =>{
+//
+// });
 
 let headerContainer = document.querySelector(".header-container");
 
